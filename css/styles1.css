@@ -102,25 +102,30 @@ section{
 }
 
 
-.my_projects{
+.my_background{
 
-    padding: 0rem 2rem;
-    background: rgba(255, 52, 52, 0.039);;
+    padding: 2rem 2rem;
+    background: rgba(255, 52, 52, 0.039);
 
 }
 
 
-.my_projects h2{
+.my_background h2{
     text-align: center;
+    margin-bottom: 2rem;
 }
 
 
 .my_background .column-left{
     float: left;
+  
+    width: 50%;
 }
 
 .my_background .column-right{
+  
     float: left;
+    width: 50%;
 }
 
 
@@ -130,6 +135,42 @@ section{
     display: table;
 }
 
+
+.column-left h5{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.column-right h5{
+    text-align: center;
+    margin-bottom: 1rem;
+
+}
+
+.hobbies{
+    padding-top: 1rem;
+    background: rgba(255, 52, 52, 0.039);
+}
+
+
+.hobbies h2{
+    text-align: center;
+}
+
+.hobbies div{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.projects{
+    padding: 0rem 2rem;
+}
+
+.projects h2{
+    text-align: center;
+    margin-bottom: 1rem;
+}
 
 
 
