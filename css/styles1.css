@@ -21,6 +21,8 @@ html{
 header{
     position: relative;
     padding: 0 2rem;
+    background: rgb(236, 236, 236);
+    margin-bottom: 2rem;
 }
 
 .navbar{
@@ -55,6 +57,10 @@ header{
     color: orange;
 }
 
+.about_me{
+    padding: 0rem 2rem;
+}
+
 
 .about_me div{
     display: flex;
@@ -84,6 +90,7 @@ header{
 
 .left h1{
     font-size: 2rem;
+    color: rgb(255, 52, 52);
 }
 
 
