@@ -173,6 +173,18 @@ section{
 }
 
 
+table, th, td {
+    border-collapse: collapse;
+    border: 1px solid;
+    
+  }
+
+  table tr th,table tr td {
+    padding: 0.7rem;
+}
+
+
+
 
 
 
