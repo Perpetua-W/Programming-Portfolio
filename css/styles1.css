@@ -25,6 +25,10 @@ header{
     margin-bottom: 2rem;
 }
 
+section{
+    margin-bottom: 2rem;
+}
+
 .navbar{
     height: 60px;
     width: 100%;
@@ -70,6 +74,10 @@ header{
     width: 60%;
 }
 
+.left ul li {
+    list-style-type: disc;
+}
+
 .right{
     width: 40%;
 }
@@ -94,6 +102,33 @@ header{
 }
 
 
+.my_projects{
+
+    padding: 0rem 2rem;
+    background: rgba(255, 52, 52, 0.039);;
+
+}
+
+
+.my_projects h2{
+    text-align: center;
+}
+
+
+.my_background .column-left{
+    float: left;
+}
+
+.my_background .column-right{
+    float: left;
+}
+
+
+.my_background::after{
+    content: "";
+    clear: both;
+    display: table;
+}
 
 
 
