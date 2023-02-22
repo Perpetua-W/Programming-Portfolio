@@ -74,6 +74,18 @@ header{
     object-fit: cover;
 }
 
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.left h1{
+    font-size: 2rem;
+}
+
 
 
 
