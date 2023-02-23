@@ -6,13 +6,6 @@
   list-style-type: none;
 }
 
-body {
-  height: 100vh;
-  background: rgb(255, 247, 247);
-  background: url("https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbXJZRlpKaGpmQmkwQWpPMllOZTVNSjdkUFBjUXxBQ3Jtc0trQTVjdEptczRNYXlZSVdUN3VxdS1HYXMwcXRNVDM1Mk9lVUZzemV5RnM0RGNHQmlmNW9GYmNxOTlKU01YdEdfQXpudGliT19fYnVfUjNQTUtndXQ3U1lvVzFjWS1BeGpVcFFreThTZmRJLURxaXJRMA&q=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1485470733090-0aae1788d5af%3Fixlib%3Drb-4.0.3%26ixid%3DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%26auto%3Dformat%26fit%3Dcrop%26w%3D1517%26q%3D80&v=GdrbE-s5DgQ");
-  background-position: center;
-  background-size: cover;
-}
 
 html {
   font-family: Arial, sans-serif;
@@ -20,13 +13,13 @@ html {
 
 header {
   position: relative;
-  padding: 0 2rem;
+  padding: 0px 2px;
   background: rgb(236, 236, 236);
-  margin-bottom: 2rem;
+  margin-bottom: 30px;
 }
 
 section {
-  margin-bottom: 2rem;
+  margin-bottom: 30px;
 }
 
 .navbar {
@@ -41,12 +34,12 @@ section {
 
 .navlinks {
   display: flex;
-  gap: 2rem;
+  gap: 30px;
 }
 
 /* LOGO */
 .logo {
-  font-size: 1.5rem;
+  font-size: 20px;
   font-weight: bold;
   color: black;
 }
@@ -54,7 +47,7 @@ section {
 .navlinks li a {
   color: black;
   text-transform: uppercase;
-  font-size: 1rem;
+  font-size: 15px;
 }
 
 .navlinks li a:hover {
@@ -62,7 +55,7 @@ section {
 }
 
 .about_me {
-  padding: 0rem 2rem;
+  padding: 0px 30px;
 }
 
 .about_me div {
@@ -96,18 +89,18 @@ section {
 }
 
 .left h1 {
-  font-size: 2rem;
+  font-size: 50 px;
   color: rgb(255, 52, 52);
 }
 
 .my_background {
-  padding: 2rem 2rem;
+  padding: 30px 30px;
   background: rgba(255, 52, 52, 0.039);
 }
 
 .my_background h2 {
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 30px;
 }
 
 .my_background .column-left {
@@ -129,21 +122,21 @@ section {
 
 .my_background ul li {
   list-style-type: disc;
-  padding: 0.5rem;
+  padding: 10px;
 }
 
 .column-left h5 {
   text-align: center;
-  margin-bottom: 1rem;
+  margin-bottom: 15px;
 }
 
 .column-right h5 {
   text-align: center;
-  margin-bottom: 1rem;
+  margin-bottom: 15px;
 }
 
 .hobbies {
-  padding-top: 1rem;
+  padding-top: 10px;
   background: rgba(255, 52, 52, 0.039);
 }
 
@@ -154,16 +147,16 @@ section {
 .hobbies div {
   display: flex;
   justify-content: center;
-  margin-top: 1rem;
+  margin-top: 10px;
 }
 
 .projects {
-  padding: 0rem 2rem;
+  padding: 0px 20px;
 }
 
 .projects h2 {
   text-align: center;
-  margin-bottom: 1rem;
+  margin-bottom: 20px;
 }
 
 table,
@@ -175,5 +168,5 @@ td {
 
 table tr th,
 table tr td {
-  padding: 0.7rem;
+  padding: 15px;
 }
