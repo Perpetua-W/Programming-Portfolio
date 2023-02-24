@@ -1,5 +1,5 @@
 # Coding Introduction
-#### Resume built with HTML and CSS, 20/02/2023 #### 
+#### Resume built with HTML and CSS, 24/02/2023 #### 
 
 By **Perpetua Wanjiku**
 
